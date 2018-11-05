@@ -17,6 +17,12 @@ describe('Review', function() {
         expect(review1.ratingAsStars()).to.equal('⭐️⭐️⭐️')
     })
 
+    it('this should show review comments and ratings', function (){
+        var review2 = new Review(1, "Terrible hotel, smelled of mice", "2018-01-01")
+        expect(review2.ratingAsStars()).to.equal('⭐️')
+
+    })
+    
 
 
 })
