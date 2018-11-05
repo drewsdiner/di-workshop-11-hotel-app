@@ -32,6 +32,15 @@ describe('Hotel', function () {
             expect(result).to.equal(0) //verifying
 
         })
+
+    describe('rating', function(){
+        it('returns 0 where there are no ratings', function(){
+            var hotel = new Hotel("Hilton Metropole", "London")
+            var result = hotel.rating()
+            expect(result).to.equal(0)
+        })
+    })
+
     })
 
 });

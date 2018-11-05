@@ -3,9 +3,14 @@ class Hotel {
         this.name = name
         this.city = city 
         this.reviews = []
+        
     }
 
     reviewCount(){
+        return 0
+    }
+
+    rating(){
         return 0
     }
 
