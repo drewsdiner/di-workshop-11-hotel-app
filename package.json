@@ -1,0 +1,23 @@
+{
+  "name": "hotel-api",
+  "version": "1.0.0",
+  "description": "an api, for hotel?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewsdiner/di-workshop-11-hotel-app.git"
+  },
+  "author": "Andrew Cochrane <iamandrewcochrane@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewsdiner/di-workshop-11-hotel-app/issues"
+  },
+  "homepage": "https://github.com/drewsdiner/di-workshop-11-hotel-app#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
